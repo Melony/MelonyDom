@@ -1,0 +1,212 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\VenvProj\Store\static\styles\style.css">
+    <title>School</title>
+
+</head>
+<body bgcolor=#dee9fa>  
+     <nav class="navbar">
+        <div class="container">
+            <a href="" class="navbar-brand">MELONY</a>
+
+            <div class="navbar-wrap">
+
+                <ul class="navbar-menu">
+                    <li><a href="http://127.0.0.1:8000/People">Граждане</a></li>
+                    <li><a href="http://127.0.0.1:8000/Street">Улицы</a></li>
+                    <li><a href="http://127.0.0.1:8000/School">Школы</a></li>
+                    
+
+                    <a href="http://127.0.0.1:8000/" class="Glav">Главная cтраница</a>
+                    
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>     
+   <h1>В честь кого названы школы в Домодедово</h1>
+    <div class="main">
+        <div class="outher">
+            <div class="conteiner">
+                <img src = "https://avatars.mds.yandex.net/get-altay/5503221/2a0000017ebb2770b5a9d179771e2812dc02/XXL_height" width="300" height="250">
+                <p> Домодедовский лицей №3 ,<br>
+                    им. Героя Советского Союза<br>
+                    Ю.П.Максимова</p>
+                <a href="http://127.0.0.1:8000/Domodedovskiy_Licey_%E2%84%963">Полная информация</a>
+        </div>
+        <div class="conteiner">
+            <img src = "https://i8.photo.2gis.com/images/branch/0/30258560051340010_9482.jpg" width="300" height="250">
+           <p>Домодедовская средняя <br>
+            общеобразовательная школа №2<br>
+            имени М.Д. Глазова</p>                 
+            <a href="http://127.0.0.1:8000/Domodedovskaya_School_%E2%84%962">Полная информация</a>
+    </div>
+    <div class="conteiner">
+        <img src = "https://fcfortuna.ru/upload/medialibrary/14c/xh9sxpty7jjrm5v70inmm7hy8gysankv.jpg" width="300" height="250">
+        <p>Домодедовская средняя <br>
+            общеобразовательная школа №9<br>
+            им. Героя Советского Союза<br>
+            Д.К. Курыжова</p>
+        <a href="http://127.0.0.1:8000/Domodedovskaya_School_%E2%84%969">Полная информация</a>
+    </div>
+</div>
+        <div class="outher">
+            <div class="conteiner">
+                <img src = "https://avatars.mds.yandex.net/get-altay/4971637/2a0000017e7c41e6c35351ffbf0d127221c5/XXXL" width="300" height="250">
+                <p>Домодедовская средняя<br>
+                    общеобразовательная школа №12<br>
+                    имени полного кавалера<br>
+                     ордена Славы В.Д. Преснова</p>
+                <a href="http://127.0.0.1:8000/Domodedovskaya_School_%E2%84%9612">Полная информация</a>
+        </div>
+     
+    <div class="conteiner">
+        <img src = "https://domodilsch.edumsko.ru/uploads/2000/1516/section/218650/foto/imgp0721.jpg" width="300" height="250">
+        <p>Ильинская средняя <br>
+        общеобразовательная школа<br>
+        им.полного кавалера<br>
+        ордена Славы И.И. Сидорова</p>
+        <a href="http://127.0.0.1:8000/Ilyinskay_School">Полная информация</a>
+    </div>
+    <div class="conteiner">
+        <img src = "https://priziv.online/wp-content/uploads/2019/11/%D1%81%D0%B0%D0%B9%D1%82-66.jpg" width="300" height="250">
+        <p>Константиновская средняя<br>
+        общеобразовательная школа<br>
+        имени Героя Социалистического<br>
+        Труда Н.В.Хухрева</p>
+        <a href="http://127.0.0.1:8000/Konstantinovskaya_School">Полная информация</a>
+</div>
+
+
+</body>
+</html>
+
+
+<style>
+p {
+font-size: 24px;
+font-style: italic;
+}
+
+.conteiner {
+margin: 20px;
+margin-top: 35px;
+display: inline-block;
+text-align: center;
+border-width: 3px;
+border-style: solid;
+border-color: #000000;
+}
+.main {
+text-align: center;
+}
+h1 {
+    font-size:45px ;
+    color: rgb(46, 101, 179);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.conteiner a {
+    
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(116, 188, 239);
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+    box-shadow: 0 4px 6px rgba(40, 135, 203,.2);
+    color:aliceblue
+
+}
+.conteiner a:hover{
+    transform: scale(1.04);
+ color: azure;
+ box-shadow: 0 9px 9px rgba(40, 135, 203, .5);
+    
+
+}
+
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+.navbar .container{
+   height: inherit;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.navbar-menu{
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li{
+    display: inline-block;
+}
+.navbar-menu li a{
+    display: inline-block;
+    color: rgb(43, 99, 197);
+    opacity: 0.6;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.09s ease-in-out;
+}
+.navbar-menu li a:hover{
+  opacity: 1;
+}
+.navbar-wrap{
+    display: flex;
+    flex-flow:row nowrap;
+}
+ .Glav{
+    margin-left: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(40, 135, 203);
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+    box-shadow: 0 4px 6px rgba(40, 135, 203,.2);
+    color:aliceblue
+   
+    
+    
+}
+.Glav:hover{
+ transform: scale(1.04);
+ color: azure;
+ box-shadow: 0 9px 9px rgba(40, 135, 203, .5);
+    
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    color: rgb(81, 84, 233);
+}
+.navbar-brand:hover{
+   color: rgb(18, 88, 146);
+   transition: all 0.09s ease-in-out;
+}
+
+
+</style>
